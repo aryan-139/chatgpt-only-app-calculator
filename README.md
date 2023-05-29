@@ -1,1 +1,0 @@
-# chatgpt-only-app-calculator
