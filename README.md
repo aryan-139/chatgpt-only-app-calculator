@@ -24,7 +24,7 @@ ChatGPT Only App Calculator, also known as YACA (Yet Another Calculator App), is
 - Responsive design for different screen sizes
 
 ## Demo
-You can try out the live demo of the ChatGPT Only App Calculator [here](https://your-calculator-app-url).
+You can try out the live demo of the ChatGPT Only App Calculator [here](https://aryan-139.github.io/chatgpt-only-app-calculator/).
 
 ![Calculator Demo](./calculator-demo.gif)
 
