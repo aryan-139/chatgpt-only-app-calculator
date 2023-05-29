@@ -1,7 +1,5 @@
 # ChatGPT Only App Calculator
 
-![Calculator Preview](./calculator-preview.png)
-
 ## Table of Contents
 - [Description](#description)
 - [Features](#features)
