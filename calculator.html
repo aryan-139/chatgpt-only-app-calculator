@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YACA- Yet Another Calculator App</title>
+  <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+    <h1 class="title">YACA-Yet Another Calculator App</h1>
+  <div class="calculator">
+    <input type="text" id="result" readonly>
+    <div class="keypad">
+      <button onclick="addDecimal()">.</button>
+      <button class="operator" onclick="append('+')">+</button>
+      <button class="operator" onclick="append('-')">-</button>
+      <button class="operator" onclick="append('*')">*</button>
+      <button class="operator" onclick="append('/')">/</button>
+      <button onclick="append('7')">7</button>
+      <button onclick="append('8')">8</button>
+      <button onclick="append('9')">9</button>
+      <button onclick="append('4')">4</button>
+      <button onclick="append('5')">5</button>
+      <button onclick="append('6')">6</button>
+      <button onclick="append('1')">1</button>
+      <button onclick="append('2')">2</button>
+      <button onclick="append('3')">3</button>
+      <button onclick="append('0')">0</button>
+      <button onclick="clearResult()">C</button>
+      <button onclick="calculate()">=</button>
+    </div>
+    <div class="memory-buttons">
+        <button onclick="addToMemory()">M+</button>
+        <button onclick="subtractFromMemory()">M-</button>
+        <button onclick="recallMemory()">MR</button>
+        <button onclick="clearMemory()">MC</button>
+      </div>
+      
+  </div>
+  <div class="explanation">
+    <h2>Functionalities:</h2>
+    <p>
+      YACA (Yet Another Calculator App) allows you to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. Simply enter the numbers and operators using the on-screen buttons or your keyboard, and the result will be displayed in the input field.
+
+      All the basic operations with memory has been implemented, next, decimal support is implemented, with a super-attractive UI. 
+    </p>
+    <h2>Developer:</h2>
+    <p>
+      YACA is developed by Aryan Raj for a basic starter project to be onboarded as a Volunteer Intern at Spartificial, using HTML, CSS, and JavaScript. It is built with the aim of providing a simple and user-friendly calculator experience.
+    </p>
+    <h2>Further Scope and Improvements:</h2>
+    <ul>
+      <li>Add support for more advanced mathematical operations such as exponentiation, square root, and logarithms.</li>
+      <li>Enhance the UI with additional styling options, themes, and customizable settings.</li>
+      <li>Implement a history feature to store and recall previous calculations.</li>
+      <li>Improve keyboard accessibility and support for assistive technologies.</li>
+      <li>Add unit conversion capabilities, such as converting between different measurement units.</li>
+    </ul>
+  </div>
+  
+  <script src="calculator.js"></script>
+</body>
+</html>

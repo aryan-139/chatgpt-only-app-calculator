@@ -1,0 +1,114 @@
+body {
+    background-image: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  } 
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #fdca20;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+    font-family: 'Arial', sans-serif;
+  
+      
+  }
+  
+.calculator {
+  width: 260px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  #result {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 20px;
+  }
+  .keypad button {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .keypad button:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
+  }
+  
+  .keypad button:active {
+    background-color: #ccc;
+    transform: scale(0.95);
+  }
+  
+  
+  .operator {
+    background-color: #fdca20;
+  }
+  
+  .memory-buttons button {
+    margin: 5px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fdca20; /* Change the background color */
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .memory-buttons button:hover {
+    background-color: #f9c60d; /* Add a different background color on hover */
+    transform: scale(1.05);
+  }
+  
+  .memory-buttons button:active {
+    background-color: #f5b607; /* Add a different background color on active state */
+    transform: scale(0.95);
+  }
+  
+  .explanation {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #333333;
+  }
+  
+  .explanation h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .explanation p {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .explanation ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  .explanation li {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  
